@@ -91,6 +91,19 @@
 		########################################################################################################################################################################
 		public static function init(){
 			
+			self::$bcVersions[] = (new DependentVersion("0.6.4 Alpha", "31-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937542651"))->setChangelog((new Changelog())
+				-> alt("Stargates can now have their wormholes disconnected from the Abstract Bus.")
+				-> alt("Stargates can now be dialed with custom Wormhole timeouts.")
+				-> alt("Changed the Stargate's Abstract Bus protocol.")
+				-> alt("Stargates now required 20K RF in order to dial (source gate only).")
+				-> alt("Transport Rings can now be activated from the Abstract Bus.")
+				-> alt("Transport Rings can skip platforms when activated from the Bus.")
+			);
+			
+			self::$bcVersions[] = (new DependentVersion("0.6.3 Alpha", "25-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937499953"))->setChangelog((new Changelog())
+				-> fix("Fixed integration plugins not running. It's more than one might think.")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.6.2 Alpha", "23-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937213256"))->setChangelog((new Changelog())
 				-> rem("Dropped Buildcraft 4. And good riddance!")
 				-> add("Added ThermalExpansion 3 support")
