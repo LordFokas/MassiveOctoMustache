@@ -1,0 +1,54 @@
+body{
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	background: url('../img/daedallus.jpg');
+	background-attachment: fixed;
+	background-position: center;
+	overflow-y: scroll;
+	color: #444;
+}
+
+#root{
+	width: 900px;
+	margin: auto;
+}
+
+#logo{
+	height: 150px;
+	background: url('../img/logo.png');
+}
+
+#menu{
+	border-radius: 5px;
+}
+
+#footer{
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#footer span{
+	margin-right: 40px;
+}
+
+#footer .icon{
+	font-size: 14px;
+}
+
+.dl-link{
+	color: #080;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.dl-link:hover{
+	color: #4c3;
+}
+
+/* Override semantic's alt color */
+.ui.table tbody tr:nth-child(2n) {
+	background-color: #eee !important;
+}
+
+.changelog-label{
+	margin-bottom: 10px !important;
+}
