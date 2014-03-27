@@ -1,4 +1,6 @@
 <?php
+	require_once "./_data/stacks.php";
+	
 	class BlockRegistry{
 		private static $blocks = array();
 		
@@ -31,35 +33,14 @@
 		}
 	}
 	
-	class Block{
-		private $name;
-		private $icon;
-		private $maxStack;
+	class Block extends Stackable{
 		private $description;
 		private $interfaces;
 		
 		public function __construct($name, $icon){
-			$this->name = $name;
-			$this->icon = $icon;
-			$this->maxStack = 64;
+			parent::__construct($name, $icon);
 			$this->description = "";
 			$this->interfaces = array();
-		}
-		
-		public function getName(){
-			return $this->name;
-		}
-		
-		public function getIcon(){
-			return $this->icon;
-		}
-		
-		public function setMaxStack($stack){
-			$this->maxStack = $stack;
-		}
-		
-		public function getMaxStack(){
-			return $this->maxStack;
 		}
 		
 		public function setDescription($description){
