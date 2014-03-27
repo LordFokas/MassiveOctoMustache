@@ -91,20 +91,33 @@
 		########################################################################################################################################################################
 		public static function init(){
 			
-			self::$bcVersions[] = (new DependentVersion("0.6.4 Alpha", "31-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937542651"))->setChangelog((new Changelog())
+			self::$bcVersions[] = (new DependentVersion("0.7.0 Alpha", "*Work In Progress*", "1.6.4", "TE 3.0.0.2", "965", "#"))->setChangelog((new Changelog())
+				-> alt("Changed the machine abstraction layer.")
+				-> add("Added GUI Tabs.")
+				-> add("Added side configuration.")
+				-> alt("Changed the Particle Ionizer. It can now accept liquids.")
+			);
+			
+			self::$bcVersions[] = (new DependentVersion("0.6.5 Alpha", "04-Feb-14", "1.6.4", "---"     , "965", "http://adfoc.us/17511937666053"))->setChangelog((new Changelog())
+				-> alt("Split the Core module into Automation, Core, Enemy, Energy, Factory, Transport and World.")
+				-> alt("Massively buffed the Particle Ionizer")
+				-> add("Added a bit more to the API")
+			);
+			
+			self::$bcVersions[] = (new DependentVersion("0.6.4 Alpha", "31-Jan-14", "1.6.4", "---"     , "965", "http://adfoc.us/17511937542651"))->setChangelog((new Changelog())
 				-> alt("Stargates can now have their wormholes disconnected from the Abstract Bus.")
 				-> alt("Stargates can now be dialed with custom Wormhole timeouts.")
 				-> alt("Changed the Stargate's Abstract Bus protocol.")
-				-> alt("Stargates now required 20K RF in order to dial (source gate only).")
+				-> alt("Stargates now require 20K RF in order to dial (source gate only).")
 				-> alt("Transport Rings can now be activated from the Abstract Bus.")
 				-> alt("Transport Rings can skip platforms when activated from the Bus.")
 			);
 			
-			self::$bcVersions[] = (new DependentVersion("0.6.3 Alpha", "25-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937499953"))->setChangelog((new Changelog())
+			self::$bcVersions[] = (new DependentVersion("0.6.3 Alpha", "25-Jan-14", "1.6.4", "---"     , "965", "http://adfoc.us/17511937499953"))->setChangelog((new Changelog())
 				-> fix("Fixed integration plugins not running. It's more than one might think.")
 			);
 			
-			self::$bcVersions[] = (new DependentVersion("0.6.2 Alpha", "23-Jan-14", "1.6.4", "none"    , "965", "http://adfoc.us/17511937213256"))->setChangelog((new Changelog())
+			self::$bcVersions[] = (new DependentVersion("0.6.2 Alpha", "23-Jan-14", "1.6.4", "---"     , "965", "http://adfoc.us/17511937213256"))->setChangelog((new Changelog())
 				-> rem("Dropped Buildcraft 4. And good riddance!")
 				-> add("Added ThermalExpansion 3 support")
 				-> fix("Made Abstract Bus Adapters retrievable from the world")

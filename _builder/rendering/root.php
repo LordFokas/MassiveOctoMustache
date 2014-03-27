@@ -82,8 +82,8 @@
 				</a>
 			</div>
 			<div class="ui sub menu" id="sub-block">
-				<a class="item"> Shield Emitter </a>
-				<a class="item"> Particle Ionizer </a>
+				<a class="item" href="../block/shield-emitter.html"> Shield Emitter </a>
+				<a class="item" href="../block/particle-ionizer.html"> Particle Ionizer </a>
 				<a class="item"> Transport Ring </a>
 				<a class="item"> Naquadah Ore </a>
 				<a class="item"> Lantean Wall </a>
@@ -120,6 +120,11 @@
 			</div>
 		</div>
 		
+		<!-- SHOW CURRENT TAB -->
+		<script type="text/javascript">
+			showTab("<?php echo $tab; ?>");
+		</script>
+		
 		<!-- CONTENT -->
 		<div id="content">
 			<?php
@@ -128,6 +133,10 @@
 						if($item == "home"){ require "./_builder/rendering/misc/home.php"; }
 						if($item == "downloads"){ require "./_builder/rendering/misc/downloads.php"; }
 						if($item == "changelog"){ require "./_builder/rendering/misc/changelog.php"; }
+						break;
+					case "block":
+						require_once "./_builder/rendering/block.php";
+						renderBlock($item);
 						break;
 					default: break;
 				}

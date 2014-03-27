@@ -12,5 +12,4 @@ $(document).ready(function(){
 	$("#tab-res"	).click(function(){ showTab("res"); });
 	$("#tab-mech"	).click(function(){ showTab("mech"); });
 	$("#tab-tut"	).click(function(){ showTab("tut"); });
-	showTab("misc");
 });

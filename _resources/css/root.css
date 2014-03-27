@@ -52,3 +52,23 @@ body{
 .changelog-label{
 	margin-bottom: 10px !important;
 }
+
+.icon128{
+	width: 128px;
+	height: 128px;
+}
+
+.column128{
+	width: 128px;
+	float: left;
+}
+
+.column730{
+	width: 730px;
+	float: right;
+}
+
+.column730 p{
+	line-height: 1.5em;
+	text-align: justify;
+}

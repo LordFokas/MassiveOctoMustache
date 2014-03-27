@@ -41,8 +41,8 @@
 		build("miscellaneous", "downloads");
 		build("miscellaneous", "changelog");
 		
-		build("block", "shield-emitter");return;
-		build("block", "particle-ionizer");
+		build("block", "shield-emitter");
+		build("block", "particle-ionizer");return;
 		build("block", "transport-ring");
 		build("block", "naquadah-ore");
 		build("block", "lantean-wall");
