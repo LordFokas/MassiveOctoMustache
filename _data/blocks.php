@@ -1,5 +1,6 @@
 <?php
 	require_once "./_data/stacks.php";
+	require_once "./_data/apis.php";
 	
 	class BlockRegistry{
 		private static $blocks = array();
