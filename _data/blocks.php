@@ -16,9 +16,13 @@
 		public static function init(){
 			$shieldEmitter = new Block("Shield Emitter", "shieldEmitter.png");
 			$particleIonizer = new Block("Particle Ionizer", "particleIonizer.png");
+			$underConstruction = new Block("Under Construction", "underConstruction.png");
 			
+			self::put("under-construction", $underConstruction);
 			self::put("shield-emitter", $shieldEmitter);
 			self::put("particle-ionizer", $particleIonizer);
+                        
+			$underConstruction->setDescription("This block's information is under construction, check back later!");
 			
 			$shieldEmitter->setDescription("The Shield Emitter is used to direct and propel Ionized Particles in order to create a shielded surface.<br /><br />".
 			"As of v0.7.0 they can no longer be placed freely, being only admissible (in)directly connected to a single ShieldController or facing an emitter that is.".

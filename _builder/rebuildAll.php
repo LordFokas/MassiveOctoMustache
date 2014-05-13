@@ -36,7 +36,9 @@
 		flushFolder("item");
 		flushFolder("resources");
 		flushFolder("mechanics");
-		
+                
+		build("block", "under-construction");
+                
 		build("miscellaneous", "home");
 		build("miscellaneous", "downloads");
 		build("miscellaneous", "changelog");
