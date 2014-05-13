@@ -84,13 +84,13 @@
 			<div class="ui sub menu" id="sub-block">
 				<a class="item" href="../block/shield-emitter.html"> Shield Emitter </a>
 				<a class="item" href="../block/particle-ionizer.html"> Particle Ionizer </a>
-				<a class="item"> Transport Ring </a>
-				<a class="item"> Naquadah Ore </a>
-				<a class="item"> Lantean Wall </a>
-				<a class="item"> Naquadah Rail </a>
-				<a class="item"> Stargate </a>
-				<a class="item"> Abstract Bus Cable </a>
-				<a class="item"> Abstract Bus Adapter </a>
+				<a class="item" href="../block/under-construction.html"> Transport Ring </a>
+				<a class="item" href="../block/under-construction.html"> Naquadah Ore </a>
+				<a class="item" href="../block/under-construction.html"> Lantean Wall </a>
+				<a class="item" href="../block/under-construction.html"> Naquadah Rail </a>
+				<a class="item" href="../block/under-construction.html"> Stargate </a>
+				<a class="item" href="../block/under-construction.html"> Abstract Bus Cable </a>
+				<a class="item" href="../block/under-construction.html"> Abstract Bus Adapter </a>
 			</div>
 			<div class="ui sub menu" id="sub-item">
 				<a class="item"> Personal Shield </a>
