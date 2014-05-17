@@ -3,7 +3,10 @@
 		private $filename;
 		
 		public function __construct($folder, $item){
-			$this->filename = "./{$folder}/{$item}.html";
+                        $folder = "./{$folder}/";
+                        if(!file_exists($folder))
+                            mkdir($folder);
+			$this->filename = "{$folder}{$item}.html";
 			ob_start(array($this, 'write'));
 		}
 		
