@@ -38,6 +38,9 @@
 		flushFolder("mechanics");
                 
 		build("block", "under-construction");
+		build("item", "under-construction");
+		build("resources", "under-construction");
+		build("mechanics", "under-construction");
                 
 		build("miscellaneous", "home");
 		build("miscellaneous", "downloads");

@@ -93,23 +93,23 @@
 				<a class="item" href="../block/under-construction.html"> Abstract Bus Adapter </a>
 			</div>
 			<div class="ui sub menu" id="sub-item">
-				<a class="item"> Personal Shield </a>
-				<a class="item"> Tablet PC </a>
-				<a class="item"> Power Crystals </a>
-				<a class="item"> Naquadah Ingot </a>
-				<a class="item"> Naquadah Dust </a>
-				<a class="item"> Naquadah Bar </a>
-				<a class="item"> Naquadah Plate </a>
-				<a class="item"> Semiconductor Lattice </a>
-				<a class="item"> Circuit Crystal </a>
+				<a class="item" href="../item/under-construction.html"> Personal Shield </a>
+				<a class="item" href="../item/under-construction.html"> Tablet PC </a>
+				<a class="item" href="../item/under-construction.html"> Power Crystals </a>
+				<a class="item" href="../item/under-construction.html"> Naquadah Ingot </a>
+				<a class="item" href="../item/under-construction.html"> Naquadah Dust </a>
+				<a class="item" href="../item/under-construction.html"> Naquadah Bar </a>
+				<a class="item" href="../item/under-construction.html"> Naquadah Plate </a>
+				<a class="item" href="../item/under-construction.html"> Semiconductor Lattice </a>
+				<a class="item" href="../item/under-construction.html"> Circuit Crystal </a>
 			</div>
 			<div class="ui sub menu" id="sub-res">
-				<a class="item"> Power </a>
-				<a class="item"> Ionized Particles </a>
+				<a class="item" href="../resources/under-construction.html"> Power </a>
+				<a class="item" href="../resources/under-construction.html"> Ionized Particles </a>
 			</div>
 			<div class="ui sub menu" id="sub-mech">
-				<a class="item"> Abstract Bus </a>
-				<a class="item"> Lazy Intercom Protocol (LIP)</a>
+				<a class="item" href="../mechanics/under-construction.html"> Abstract Bus </a>
+				<a class="item" href="../mechanics/under-construction.html"> Lazy Intercom Protocol (LIP)</a>
 			</div>
 			<div class="ui sub menu" id="sub-tut">
 				<a class="item">
@@ -137,6 +137,18 @@
 					case "block":
 						require_once "./_builder/rendering/block.php";
 						renderBlock($item);
+						break;
+					case "item":
+						require_once "./_builder/rendering/item.php";
+						renderItem($item);
+						break;
+					case "res":
+						require_once "./_builder/rendering/resource.php";
+						renderResource($item);
+						break;
+					case "mech":
+						require_once "./_builder/rendering/mechanic.php";
+						renderMechanic($item);
 						break;
 					default: break;
 				}
