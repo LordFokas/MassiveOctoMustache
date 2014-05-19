@@ -165,6 +165,10 @@
 				<i class="red bolt icon"></i>
 				Powered by PHP and Semantic-UI
 			</span>
+			<span>
+				<i class="green link icon"></i>
+				Hosted by JoshTheEnder
+			</span>
 		</div>
 	</div>
 </body>
