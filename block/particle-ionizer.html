@@ -84,7 +84,7 @@
 			<div class="ui sub menu" id="sub-block">
 				<a class="item" href="../block/shield-emitter.html"> Shield Emitter </a>
 				<a class="item" href="../block/particle-ionizer.html"> Particle Ionizer </a>
-				<a class="item" href="../block/under-construction.html"> Transport Ring </a>
+				<a class="item" href="../block/transport-ring.html"> Transport Ring </a>
 				<a class="item" href="../block/under-construction.html"> Naquadah Ore </a>
 				<a class="item" href="../block/under-construction.html"> Lantean Wall </a>
 				<a class="item" href="../block/under-construction.html"> Naquadah Rail </a>
