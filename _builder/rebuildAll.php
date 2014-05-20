@@ -47,8 +47,8 @@
 		build("miscellaneous", "changelog");
 		
 		build("block", "shield-emitter");
-		build("block", "particle-ionizer");return;
-		build("block", "transport-ring");
+		build("block", "particle-ionizer");
+		build("block", "transport-ring");return;
 		build("block", "naquadah-ore");
 		build("block", "lantean-wall");
 		build("block", "naquadah-rail");
