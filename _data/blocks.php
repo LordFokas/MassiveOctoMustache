@@ -16,8 +16,8 @@
 		public static function init(){
 			$shieldEmitter = new Block("Shield Emitter", "shieldEmitter.png");
 			$particleIonizer = new Block("Particle Ionizer", "particleIonizer.png");
-			$transportRing = new Block("Transport Ring", "block.png");
-			$naquadahRail = new Block("Naquadah Rail", "block.png");
+			$transportRing = new Block("Transport Ring", "transportRing.png");
+			$naquadahRail = new Block("Naquadah Rail", "naquadahRail.png");
 			$underConstruction = new Block("Under Construction", "underConstruction.png");
 
 			self::put("under-construction", $underConstruction);
