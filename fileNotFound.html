@@ -115,7 +115,7 @@
 			<div class="ui sub menu" id="sub-tut">
 				<a class="item">
 					<i class="frown icon"></i>
-					There are no tutorials yet
+					There are no tutorials, yet
 					<i class="frown icon"></i>
 				</a>
 			</div>
@@ -128,32 +128,11 @@
 
 		<!-- CONTENT -->
 		<div id="content">
-			<?php
-				switch($tab){
-					case "misc":
-						if($item == "home"){ require "./_builder/rendering/misc/home.php"; }
-						if($item == "downloads"){ require "./_builder/rendering/misc/downloads.php"; }
-						if($item == "changelog"){ require "./_builder/rendering/misc/changelog.php"; }
-						break;
-					case "block":
-						require_once "./_builder/rendering/block.php";
-						renderBlock($item);
-						break;
-					case "item":
-						require_once "./_builder/rendering/item.php";
-						renderItem($item);
-						break;
-					case "res":
-						require_once "./_builder/rendering/resource.php";
-						renderResource($item);
-						break;
-					case "mech":
-						require_once "./_builder/rendering/mechanic.php";
-						renderMechanic($item);
-						break;
-					default: break;
-				}
-			?>
+			<div class="ui segment">
+				The Page you are looking for does not exist. Please double check the URL you used to make sure you tried going to the right place.<br>
+				If you feel this is a problem with the site and not the URL you used, please put an issue on
+				<a href="https://github.com/LordFokas/MassiveOctoMustache/issues">the website GitHub repository</a>. Thanks!
+			</div>
 		</div>
 
 		<!-- FOOTER -->

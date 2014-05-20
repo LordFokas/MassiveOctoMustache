@@ -1,18 +1,18 @@
 <?php
 	require_once "./_data/stacks.php";
 	require_once "./_data/apis.php";
-	
+
 	class BlockRegistry{
 		private static $blocks = array();
-		
+
 		public static function get($block){
 			return self::$blocks[$block];
 		}
-		
+
 		private static function put($name, $block){
 			self::$blocks[$name] = $block;
 		}
-		
+
 		public static function init(){
 			$shieldEmitter = new Block("Shield Emitter", "shieldEmitter.png");
 			$particleIonizer = new Block("Particle Ionizer", "particleIonizer.png");
@@ -25,7 +25,7 @@
 			self::put("particle-ionizer", $particleIonizer);
 			self::put("transport-ring", $transportRing);
 			self::put("naquadah-rail", $naquadahRail);
-                        
+
 			$underConstruction->setDescription("This block's information is under construction, check back later!");
 			
 			$shieldEmitter->setDescription("The Shield Emitter is used to direct and propel Ionized Particles in order to create a shielded surface.<br /><br />".
@@ -34,7 +34,7 @@
 				"Only the player who placed the Shield Emitter can remove it, by shift+clicking it with a wrench. If a Shield Controller is removed from the world ".
 				"all associated Shield Emitters are removed as well."
 			);
-			
+
 			$particleIonizer->setDescription("The Particle Ionizer is capable of reducing some kinds of matter into tiny ionized particles, charged with a lot of energy. ".
 				"Upon colliding with each others at high speeds they burst, creating a small but powerful magnetic field. Frequencies and particle velocity can be adjusted to ".
 				"let some kinds of entities through it.<br /><br />".
@@ -54,34 +54,34 @@
 			);
 		}
 	}
-	
+
 	class Block extends Stackable{
 		private $description;
 		private $interfaces;
-		
+
 		public function __construct($name, $icon){
 			parent::__construct($name, $icon);
 			$this->description = "";
 			$this->interfaces = array();
 		}
-		
+
 		public function setDescription($description){
 			$this->description = $description;
 		}
-		
+
 		public function getDescription(){
 			return $this->description;
 		}
-		
+
 		public function addInterface($interface){
 			$this->interfaces[] = $interface;
 		}
-		
+
 		public function getInterfaces(){
 			return $this->interfaces;
 		}
 	}
-	
+
 	BlockRegistry::init();
 	require_once "./_data/recipes.php";
 ?>
