@@ -17,14 +17,14 @@
 			$shieldEmitter = new Block("Shield Emitter", "shieldEmitter.png");
 			$particleIonizer = new Block("Particle Ionizer", "particleIonizer.png");
 			$transportRing = new Block("Transport Ring", "block.png");
-			$naquadahRail = new Block("Naquadah Rail", "block.png")
+			$naquadahRail = new Block("Naquadah Rail", "block.png");
 			$underConstruction = new Block("Under Construction", "underConstruction.png");
 
 			self::put("under-construction", $underConstruction);
 			self::put("shield-emitter", $shieldEmitter);
 			self::put("particle-ionizer", $particleIonizer);
-			self::put("transport-ring", $transportRing)
-			self::put("naquadah-rail", $naquadahRail)
+			self::put("transport-ring", $transportRing);
+			self::put("naquadah-rail", $naquadahRail);
                         
 			$underConstruction->setDescription("This block's information is under construction, check back later!");
 			

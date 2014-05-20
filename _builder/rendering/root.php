@@ -166,8 +166,8 @@
 				Powered by PHP and Semantic-UI
 			</span>
 			<span>
-				<i class="green link icon"></i>
-				Hosted by JoshTheEnder
+				<i class="green url icon"></i>
+				Kindly hosted by JoshTheEnder
 			</span>
 		</div>
 	</div>
