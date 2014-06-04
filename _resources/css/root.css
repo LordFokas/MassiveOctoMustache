@@ -7,6 +7,8 @@ body{
 	color: #444;
 }
 
+p{ line-height: 1.5em; }
+
 #root{
 	width: 900px;
 	margin: auto;
@@ -69,6 +71,16 @@ body{
 }
 
 .column730 p{
-	line-height: 1.5em;
 	text-align: justify;
+}
+
+.home-avatar{
+	min-height: 100px;
+	margin-bottom: 30px;
+}
+
+.home-avatar img{
+	float: left;
+	margin-right: 10px;
+	border-radius: 5px;
 }
