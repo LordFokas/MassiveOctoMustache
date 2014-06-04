@@ -91,6 +91,12 @@
 		########################################################################################################################################################################
 		public static function init(){
 			
+			self::$bcVersions[] = (new DependentVersion("0.7.1 Alpha", "05-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-1-MC164-Forge965.jar"))->setChangelog((new Changelog())
+				-> fix("Shield Controllers can now be crafted. My bad :|")
+				-> fix("Crash when CC wasn't present. Also my bad :|")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.7.0 Alpha", "04-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-0-MC164-Forge965.jar"))->setChangelog((new Changelog())
 				-> add("API now allows custom world/address generation.")
