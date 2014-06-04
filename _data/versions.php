@@ -91,18 +91,24 @@
 		########################################################################################################################################################################
 		public static function init(){
 			
-			self::$bcVersions[] = (new DependentVersion("0.7.0 Alpha", "*Work In Progress*", "1.6.4", "TE 3.0.0.2", "965", "#"))->setChangelog((new Changelog())
-				-> alt("Changed the machine abstraction layer.")
-				-> add("Added GUI Tabs.")
-				-> add("Added side configuration.")
-				-> alt("Changed the Particle Ionizer. It can now accept liquids.")
+			self::$bcVersions[] = (new DependentVersion("0.7.0 Alpha", "04-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-0-MC164-Forge965.jar"))->setChangelog((new Changelog())
+				-> alt("Overhauled the machine abstraction layer.")
+				-> add("GUI Tabs.")
+				-> add("Sided configuration.")
+				-> alt("The Particle Ionizer can now accept liquids.")
+				-> fix("Stargate and Transport Ring lighting bugs.")
+				-> alt("Complete overhaul of the Shield-related systems (particle ionizer, shield emitters, etc).")
+				-> add("API now allows custom world/address generation.")
+				-> add("Abstract Bus machines can now provide feedback.")
+				-> add("CoFH Friend system can be used to configure shields. Currently disabled until CoFH provides client sync.")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.5 Alpha", "04-Feb-14", "1.6.4", "---"     , "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-6-5-MC164-Forge965.jar"))->setChangelog((new Changelog())
 				-> alt("Split the Core module into Automation, Core, Enemy, Energy, Factory, Transport and World.")
-				-> alt("Massively buffed the Particle Ionizer")
-				-> add("Added a bit more to the API")
+				-> alt("Massively buffed the Particle Ionizer.")
+				-> add("API now exposes more features.")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.4 Alpha", "31-Jan-14", "1.6.4", "---"     , "965",
