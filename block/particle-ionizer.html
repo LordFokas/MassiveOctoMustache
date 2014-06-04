@@ -10,7 +10,7 @@
 	<title> StargateTech 2 </title>
 	<link rel="stylesheet" type="text/css" href="../_resources/semantic/css/semantic.css">
 	<link rel="stylesheet" type="text/css" href="../_resources/css/root.css">
-	<link rel="icon" type="image/png" href="../_resources/favicon.png">
+	<link rel="icon" type="image/png" href="../_resources/img/favicon.png">
 
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
