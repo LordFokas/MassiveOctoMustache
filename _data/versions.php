@@ -93,22 +93,22 @@
 			
 			self::$bcVersions[] = (new DependentVersion("0.7.0 Alpha", "04-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-0-MC164-Forge965.jar"))->setChangelog((new Changelog())
-				-> alt("Overhauled the machine abstraction layer.")
-				-> add("GUI Tabs.")
-				-> add("Sided configuration.")
-				-> alt("The Particle Ionizer can now accept liquids.")
-				-> fix("Stargate and Transport Ring lighting bugs.")
-				-> alt("Complete overhaul of the Shield-related systems (particle ionizer, shield emitters, etc).")
 				-> add("API now allows custom world/address generation.")
 				-> add("Abstract Bus machines can now provide feedback.")
 				-> add("CoFH Friend system can be used to configure shields. Currently disabled until CoFH provides client sync.")
+				-> add("GUI Tabs.")
+				-> add("Sided configuration.")
+				-> alt("The Particle Ionizer can now accept liquids.")
+				-> alt("Complete overhaul of the Shield-related systems (particle ionizer, shield emitters, etc).")
+				-> alt("Overhauled the machine abstraction layer.")
+				-> fix("Stargate and Transport Ring lighting bugs.")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.5 Alpha", "04-Feb-14", "1.6.4", "---"     , "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-6-5-MC164-Forge965.jar"))->setChangelog((new Changelog())
+				-> add("API now exposes more features.")
 				-> alt("Split the Core module into Automation, Core, Enemy, Energy, Factory, Transport and World.")
 				-> alt("Massively buffed the Particle Ionizer.")
-				-> add("API now exposes more features.")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.4 Alpha", "31-Jan-14", "1.6.4", "---"     , "965",
@@ -128,10 +128,10 @@
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.2 Alpha", "23-Jan-14", "1.6.4", "---"     , "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-6-2-MC164-Forge965.jar"))->setChangelog((new Changelog())
-				-> rem("Dropped Buildcraft 4. And good riddance!")
 				-> add("Added ThermalExpansion 3 support")
-				-> fix("Made Abstract Bus Adapters retrievable from the world")
+				-> rem("Dropped Buildcraft 4. And good riddance!")
 				-> alt("Changed recipes a bit")
+				-> fix("Made Abstract Bus Adapters retrievable from the world")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.6.1 Alpha", "13-Jan-14", "1.6.4", "BC 4.2.1", "965",
@@ -157,10 +157,10 @@
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-5-1-MC164-Forge942.jar"))->setChangelog((new Changelog())
 				-> rem("Unnecessary synchronization")
 				-> alt("Nerfed tank sizes on Particle Ionizers and Shield Emitters")
+				-> alt("Shield Emitter range can be configured on the server side")
 				-> fix("Naquadah Ore visible through \"invisible\" chunks")
 				-> fix("Placing a Stargate crashing clients while on remote servers")
 				-> fix("Naquadah ore not mineable with Tinker's Construct awesome tools")
-				-> alt("Shield Emitter range can be configured on the server side")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.5.0 Alpha", "24-Dec-13", "1.6.4", "BC 4.1.0", "942",
@@ -183,18 +183,18 @@
 			
 			self::$bcVersions[] = (new DependentVersion("0.4.0 Alpha", "24-Oct-13", "1.6.4", "BC 4.1.0", "881",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-4-0-MC164-Forge881.jar"))->setChangelog((new Changelog())
-				-> alt("Changed recipes to make a deeper recipe tree")
 				-> add("Naquadah Capacitor")
 				-> add("Naquadah Power Crystals")
 				-> add("Semiconductor Lattice Blend and Circuit Crystals")
 				-> add("Naquadah Derivates: Dust, Bar, Plate")
+				-> alt("Changed recipes to make a deeper recipe tree")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.3.1 Alpha", "17-Oct-13", "1.6.4", "BC 4.1.0", "881",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-3-1-MC164-Forge881.jar"))->setChangelog((new Changelog())
+				-> add("Lantean Wall block appear in Loot Pods")
 				-> fix("Players carrying Personal Shields randomly crashing upon being damaged")
 				-> fix("Shield Emitters not considering \"pseudo-air\" blocks to be air")
-				-> add("Lantean Wall block appear in Loot Pods")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.3.0 Alpha", "07-Oct-13", "1.6.4", "BC 4.1.0", "881",
@@ -216,8 +216,8 @@
 			
 			self::$bcVersions[] = (new DependentVersion("0.1.2 Alpha", "28-Aug-13", "1.6.2", "BC 4.0.0", "842",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-1-2-MC162-Forge842.jar"))->setChangelog((new Changelog())
-				-> fix("Dedicated server crashes")
 				-> add("IC2 Integration: Scrap, Scrap Boxes and UU-Matter can be used as ionizable matter")
+				-> fix("Dedicated server crashes")
 			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.1.1 Alpha", "27-Aug-13", "1.6.2", "BC 4.0.0", "842",
