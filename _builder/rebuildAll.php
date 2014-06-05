@@ -36,8 +36,7 @@
 		flushFolder("item");
 		flushFolder("resources");
 		flushFolder("mechanics");
-                
-		build("block", "under-construction");
+        
 		build("item", "under-construction");
 		build("resources", "under-construction");
 		build("mechanics", "under-construction");
@@ -52,20 +51,19 @@
 		build("block", "transport-ring");
 		build("block", "naquadah-rail");
 		build("block", "naquadah-ore");
-		build("block", "stargate");return;
+		build("block", "stargate");
 		build("block", "abstract-bus-cable");
 		build("block", "abstract-bus-adapter");
-		build("block", "lantean-wall");
+		build("block", "lantean-wall");return;
 		
-		build("item", "personal-shield");
-		build("item", "tablet-pc");
-		build("item", "power-crystals");
 		build("item", "naquadah-ingot");
 		build("item", "naquadah-dust");
-		build("item", "naquadah-bar");
 		build("item", "naquadah-plate");
-		build("item", "semiconductor-lattice");
+		build("item", "magnetic-induction-coil");
+		build("item", "matter-conductance-coil");
 		build("item", "circuit-crystal");
+		build("item", "personal-shield");
+		build("item", "tablet-pc");
 		
 		build("resources", "power");
 		build("resources", "ionized-particles");

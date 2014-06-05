@@ -90,19 +90,17 @@
 				<a class="item" href="../block/transport-ring.html"> Transport Ring </a>
 				<a class="item" href="../block/naquadah-ore.html"> Naquadah Ore </a>
 				<a class="item" href="../block/naquadah-rail.html"> Naquadah Rail </a>
-				<a class="item" href="../block/under-construction.html"> Lantean Wall </a>
+				<a class="item" href="../block/lantean-wall.html"> Lantean Wall </a>
 				<a class="item" href="../block/stargate.html"> Stargate </a>
-				<a class="item" href="../block/under-construction.html"> Abstract Bus Cable </a>
-				<a class="item" href="../block/under-construction.html"> Abstract Bus Adapter </a>
+				<a class="item" href="../block/abstract-bus-cable.html"> Abstract Bus Cable </a>
+				<a class="item" href="../block/abstract-bus-adapter.html"> Abstract Bus Adapter </a>
 			</div>
 			<div class="ui sub menu" id="sub-item">
 				<a class="item" href="../item/under-construction.html"> Naquadah Ingot </a>
 				<a class="item" href="../item/under-construction.html"> Naquadah Dust </a>
 				<a class="item" href="../item/under-construction.html"> Naquadah Plate </a>
-				
 				<a class="item" href="../item/under-construction.html"> Magnetic Induction Coil </a>
 				<a class="item" href="../item/under-construction.html"> Matter Conductance Coil </a>
-				
 				<a class="item" href="../item/under-construction.html"> Circuit Crystal </a>
 				<a class="item" href="../item/under-construction.html"> Personal Shield </a>
 				<a class="item" href="../item/under-construction.html"> Tablet PC </a>
