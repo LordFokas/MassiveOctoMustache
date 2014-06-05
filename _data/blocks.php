@@ -21,10 +21,9 @@
 			$naquadahRail = new Block("Naquadah Rail", "naquadahRail.png");
 			$naquadahOre = new Block("Naquadah Ore", "naquadahOre.png");
 			$stargate = new Block("Stargate", "stargate.png");
-			
-			$underConstruction = new Block("Under Construction", "underConstruction.png");
-			$underConstruction->setDescription("This block's information is under construction, check back later!");
-			self::put("under-construction", $underConstruction);
+			$busCable = new Block("Abstract Bus Cable", "busCable.png");
+			$busAdapter = new Block("Abstract Bus Adapter", "abstractBusAdapter.png");
+			$lanteanWall = new Block("Lantean Wall", "lanteanWall.png");
 			
 			self::put("shield-controller", $shieldController);
 			self::put("shield-emitter", $shieldEmitter);
@@ -33,6 +32,9 @@
 			self::put("naquadah-rail", $naquadahRail);
 			self::put("naquadah-ore", $naquadahOre);
 			self::put("stargate", $stargate);
+			self::put("abstract-bus-cable", $busCable);
+			self::put("abstract-bus-adapter", $busAdapter);
+			self::put("lantean-wall", $lanteanWall);
 			
 			$shieldController->setDescription("The Shield Controller allows you to control all the emitters associated with it, which can generate a shield provided the Shield Controller ".
 				"has enough Ionized Particles in its internal tank. It can also be controlled through the Abstract Bus.");
@@ -65,6 +67,18 @@
 			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.");
 			
 			$stargate->setDescription("The Stargate is our crown jewel. More information (a lot more information, actually) will be added later, right now we're just composing the page stubs...");
+			
+			$busCable->setDescription("The Abstract Bus Cable is the binding point of any and all Abstract Bus Networks. It works somewhat like a real-life network cable, ".
+				"enabling all machines connected to the same cable to commuticate between themselves."
+			);
+			
+			$busAdapter->setDescription("The Abstract Bus Adapter is an integration block that allows computers from ComputerCraft to operate in Abstract Bus Networks.".
+				"It requires ComputerCraft to be installed in order to be craftable and implements the CC Peripheral API."
+			);
+			
+			$lanteanWall->setDescription("The Lantean Wall is a decorative block that can be found in world-generated ruins. It comes in all 16 Standard MC Colors (a.k.a. Wool Colors)<br />".
+				"* Image still Missing *"
+			);
 		}
 	}
 

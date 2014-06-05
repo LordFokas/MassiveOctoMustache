@@ -21,17 +21,17 @@ the website is secure enough, thank you very much.
 Stuff that needs to be added to the wiki:
 =========================================
 
-- [ ] blocks
+- [x] Blocks
   - [x] Shield Controller
   - [x] Shield Emitter
   - [x] Particle Ionizer
   - [x] Transport Ring
   - [x] Naquadah Ore
-  - [ ] Lantean Wall
+  - [x] Lantean Wall
   - [x] Naquadah Rail
   - [x] Stargate
-  - [ ] Abstract Bus Cable
-  - [ ] Abstract Bus Adapter
+  - [x] Abstract Bus Cable
+  - [x] Abstract Bus Adapter
 - [ ] Items
   - [ ] Naquadah Ingot
   - [ ] Naquadah Dust
@@ -45,6 +45,7 @@ Stuff that needs to be added to the wiki:
   - [ ] Power
   - [ ] Ionized Particles
 - [ ] Mechanics
+  - [ ] World Generation
   - [ ] Abstract Bus
   - [ ] Lazy Intercom Protocol (LIP)
 - [ ] Tutorials
@@ -55,4 +56,10 @@ Stuff that needs to be added to the wiki:
 
 
 
+Features Still Missing (Blocks & Items):
+========================================
 
+- [ ] Recipes
+- [ ] Interfaces
+- [ ] Image Gallery (actually spans more than just Blocks & Items)
+- [ ] Lore & Canon Fitness (also spans more ^ )
