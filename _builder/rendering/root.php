@@ -96,15 +96,16 @@
 				<a class="item" href="../block/under-construction.html"> Abstract Bus Adapter </a>
 			</div>
 			<div class="ui sub menu" id="sub-item">
-				<a class="item" href="../item/under-construction.html"> Personal Shield </a>
-				<a class="item" href="../item/tablet-pc.html"> Tablet PC </a>
-				<a class="item" href="../item/under-construction.html"> Power Crystals </a>
 				<a class="item" href="../item/under-construction.html"> Naquadah Ingot </a>
 				<a class="item" href="../item/under-construction.html"> Naquadah Dust </a>
-				<a class="item" href="../item/under-construction.html"> Naquadah Bar </a>
 				<a class="item" href="../item/under-construction.html"> Naquadah Plate </a>
-				<a class="item" href="../item/under-construction.html"> Semiconductor Lattice </a>
+				
+				<a class="item" href="../item/under-construction.html"> Magnetic Induction Coil </a>
+				<a class="item" href="../item/under-construction.html"> Matter Conductance Coil </a>
+				
 				<a class="item" href="../item/under-construction.html"> Circuit Crystal </a>
+				<a class="item" href="../item/under-construction.html"> Personal Shield </a>
+				<a class="item" href="../item/under-construction.html"> Tablet PC </a>
 			</div>
 			<div class="ui sub menu" id="sub-res">
 				<a class="item" href="../resources/under-construction.html"> Power </a>

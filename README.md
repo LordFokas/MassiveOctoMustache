@@ -33,12 +33,14 @@ Stuff that needs to be added to the wiki:
   - [ ] Abstract Bus Cable
   - [ ] Abstract Bus Adapter
 - [ ] Items
-  - [ ] Personal Shield
-  - [ ] Tablet PC
   - [ ] Naquadah Ingot
   - [ ] Naquadah Dust
   - [ ] Naquadah Plate
+  - [ ] Magnetic Induction Coil
+  - [ ] Matter Conductance Coil
   - [ ] Circuit Crystal
+  - [ ] Personal Shield
+  - [ ] Tablet PC
 - [ ] Resources
   - [ ] Power
   - [ ] Ionized Particles
