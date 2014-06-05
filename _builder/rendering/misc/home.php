@@ -33,7 +33,7 @@
 		<p>
 			In few words: He's like an arm and two legs to this project. Hosts this site, helps users out, keeps track of stuff,
 			helps develop this site, keeps EnderBot up and running in #StargateTech and much more!<br />
-			Has also started a mod called LaserCraft that should have fun stuff to show sometime in the future.
+			Has also started a mod called LaserCraft that should have fun stuff to show sometime in the future. *tap-tap-tap-tap*
 		</p>
 	</div>
 	
