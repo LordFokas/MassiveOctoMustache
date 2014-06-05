@@ -1,4 +1,0 @@
-[05-Jun-2014 16:25:23 Europe/Berlin] PHP Notice:  Undefined index: naquadah-ore in D:\XAMPP\htdocs\sgtech2\_data\blocks.php on line 9
-[05-Jun-2014 16:25:23 Europe/Berlin] PHP Fatal error:  Call to a member function getIcon() on a non-object in D:\XAMPP\htdocs\sgtech2\_builder\rendering\block.php on line 9
-[05-Jun-2014 16:26:38 Europe/Berlin] PHP Notice:  Undefined index: naquadah-ore in D:\XAMPP\htdocs\sgtech2\_data\blocks.php on line 9
-[05-Jun-2014 16:26:38 Europe/Berlin] PHP Fatal error:  Call to a member function getIcon() on a non-object in D:\XAMPP\htdocs\sgtech2\_builder\rendering\block.php on line 9
