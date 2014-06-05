@@ -31,20 +31,24 @@
 	}
 	
 	function rebuildAll(){
+		echo "Flushing folders";
 		flushFolder("miscellaneous");
 		flushFolder("block");
 		flushFolder("item");
 		flushFolder("resources");
 		flushFolder("mechanics");
         
+        echo "Building data";
 		build("item", "under-construction");
 		build("resources", "under-construction");
 		build("mechanics", "under-construction");
-                
+        
+        echo "Building Misc";
 		build("miscellaneous", "home");
 		build("miscellaneous", "downloads");
 		build("miscellaneous", "changelog");
 		
+		echo "Building Blocks";
 		build("block", "shield-controller");
 		build("block", "shield-emitter");
 		build("block", "particle-ionizer");
@@ -56,6 +60,7 @@
 		build("block", "abstract-bus-adapter");
 		build("block", "lantean-wall");return;
 		
+		echo "Building Items";
 		build("item", "naquadah-ingot");
 		build("item", "naquadah-dust");
 		build("item", "naquadah-plate");
