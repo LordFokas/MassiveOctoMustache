@@ -16,26 +16,28 @@ without consulting first (like adding a freaking auth system!).
 Such things will probably be denied instantly in the future,
 the website is secure enough, thank you very much.
 
+
+
 Stuff that needs to be added to the wiki:
+=========================================
+
 - [ ] blocks
+  - [x] Shield Controller
   - [x] Shield Emitter
   - [x] Particle Ionizer
   - [x] Transport Ring
-  - [ ] Naquadah Ore
+  - [x] Naquadah Ore
   - [ ] Lantean Wall
-  - [ ] Naquadah Rail
-  - [ ] Stargate
+  - [x] Naquadah Rail
+  - [x] Stargate
   - [ ] Abstract Bus Cable
   - [ ] Abstract Bus Adapter
 - [ ] Items
   - [ ] Personal Shield
   - [ ] Tablet PC
-  - [ ] Power Crystals
   - [ ] Naquadah Ingot
   - [ ] Naquadah Dust
-  - [ ] Naquadah Bar
   - [ ] Naquadah Plate
-  - [ ] Semiconductor Lattice
   - [ ] Circuit Crystal
 - [ ] Resources
   - [ ] Power
@@ -44,7 +46,7 @@ Stuff that needs to be added to the wiki:
   - [ ] Abstract Bus
   - [ ] Lazy Intercom Protocol (LIP)
 - [ ] Tutorials
-- [ ] Misc
+- [x] Misc
   - [x] Home
   - [x] Downloads
   - [x] Changelog
