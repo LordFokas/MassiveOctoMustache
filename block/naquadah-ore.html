@@ -125,38 +125,21 @@
 
 		<!-- SHOW CURRENT TAB -->
 		<script type="text/javascript">
-			showTab("<?php echo $tab; ?>");
+			showTab("block");
 		</script>
 
 		<!-- CONTENT -->
 		<div id="content">
-			<?php
-				switch($tab){
-					case "misc":
-						if($item == "home"){ require "./_builder/rendering/misc/home.php"; }
-						if($item == "downloads"){ require "./_builder/rendering/misc/downloads.php"; }
-						if($item == "changelog"){ require "./_builder/rendering/misc/changelog.php"; }
-						break;
-					case "block":
-						require_once "./_builder/rendering/block.php";
-						renderBlock($item);
-						break;
-					case "item":
-						require_once "./_builder/rendering/item.php";
-						renderItem($item);
-						break;
-					case "res":
-						require_once "./_builder/rendering/resource.php";
-						renderResource($item);
-						break;
-					case "mech":
-						require_once "./_builder/rendering/mechanic.php";
-						renderMechanic($item);
-						break;
-					default: break;
-				}
-			?>
+					<div class="ui segment">
+			<div class="column128">
+				<img src="../_resources/img/block/naquadahOre.png" class="icon128" />
+			</div>
+			<div class="column730">
+				<h2 style="margin-top: 0px;">Naquadah Ore</h2>
+				<p>Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.</p>
+			</div>
 		</div>
+				</div>
 
 		<!-- FOOTER -->
 		<div class="ui inverted segment" id="footer">

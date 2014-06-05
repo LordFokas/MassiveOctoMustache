@@ -46,15 +46,16 @@
 		build("miscellaneous", "downloads");
 		build("miscellaneous", "changelog");
 		
+		build("block", "shield-controller");
 		build("block", "shield-emitter");
 		build("block", "particle-ionizer");
-		build("block", "transport-ring");return;
-		build("block", "naquadah-ore");
-		build("block", "lantean-wall");
+		build("block", "transport-ring");
 		build("block", "naquadah-rail");
-		build("block", "stargate");
+		build("block", "naquadah-ore");
+		build("block", "stargate");return;
 		build("block", "abstract-bus-cable");
 		build("block", "abstract-bus-adapter");
+		build("block", "lantean-wall");
 		
 		build("item", "personal-shield");
 		build("item", "tablet-pc");
