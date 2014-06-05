@@ -14,19 +14,28 @@
 		}
 
 		public static function init(){
+			$shieldController = new Block("Shield Controller", "shieldController.png");
 			$shieldEmitter = new Block("Shield Emitter", "shieldEmitter.png");
 			$particleIonizer = new Block("Particle Ionizer", "particleIonizer.png");
 			$transportRing = new Block("Transport Ring", "transportRing.png");
 			$naquadahRail = new Block("Naquadah Rail", "naquadahRail.png");
+			$naquadahOre = new Block("Naquadah Ore", "naquadahOre.png");
+			$stargate = new Block("Stargate", "stargate.png");
+			
 			$underConstruction = new Block("Under Construction", "underConstruction.png");
-
+			$underConstruction->setDescription("This block's information is under construction, check back later!");
 			self::put("under-construction", $underConstruction);
+			
+			self::put("shield-controller", $shieldController);
 			self::put("shield-emitter", $shieldEmitter);
 			self::put("particle-ionizer", $particleIonizer);
 			self::put("transport-ring", $transportRing);
 			self::put("naquadah-rail", $naquadahRail);
-
-			$underConstruction->setDescription("This block's information is under construction, check back later!");
+			self::put("naquadah-ore", $naquadahOre);
+			self::put("stargate", $stargate);
+			
+			$shieldController->setDescription("The Shield Controller allows you to control all the emitters associated with it, which can generate a shield provided the Shield Controller ".
+				"has enough Ionized Particles in its internal tank. It can also be controlled through the Abstract Bus.");
 			
 			$shieldEmitter->setDescription("The Shield Emitter is used to direct and propel Ionized Particles in order to create a shielded surface.<br /><br />".
 				"As of v0.7.0 they can no longer be placed freely, being only admissible (in)directly connected to a single ShieldController or facing an emitter that is.".
@@ -52,6 +61,10 @@
 			$naquadahRail->setDescription("The Naquadah Rail is a special type of rail that can be placed through shields. It cannot be set as a turning track (come on now, that would be silly) ".
 				"It exists as a way to have minecarts able to go through the shields."
 			);
+			
+			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.");
+			
+			$stargate->setDescription("The Stargate is our crown jewel. More information (a lot more information, actually) will be added later, right now we're just composing the page stubs...");
 		}
 	}
 
