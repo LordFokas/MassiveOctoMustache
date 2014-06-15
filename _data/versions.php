@@ -91,6 +91,13 @@
 		########################################################################################################################################################################
 		public static function init(){
 			
+			self::$bcVersions[] = (new DependentVersion("0.7.2 Alpha", "15-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-2-MC164-Forge965.jar"))->setChangelog((new Changelog())
+				-> add("Tinker's Construct integration :D")
+				-> add("Naquadah Block, a storage solution for ingots.")
+				-> fix("Players being unable to write underscores in Shield Controller GUI.")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.7.1 Alpha", "05-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-1-MC164-Forge965.jar"))->setChangelog((new Changelog())
 				-> fix("Shield Controllers can now be crafted. My bad :|")
