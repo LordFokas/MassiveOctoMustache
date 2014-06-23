@@ -90,6 +90,11 @@
 		########################################################################################################################################################################
 		########################################################################################################################################################################
 		public static function init(){
+			self::$bcVersions[] = (new DependentVersion("0.7.3 Alpha", "23-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-3-MC164-Forge965.jar"))->setChangelog((new Changelog())
+				-> alt("Buffed Abstract Bus Cable recipe output.")
+				-> fix("Naquadah Blocks merging with and transforming into Naquadah Ore.")
+			);
 			
 			self::$bcVersions[] = (new DependentVersion("0.7.2 Alpha", "15-Jun-14", "1.6.4", "TE 3.0.0.2", "965",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-2-MC164-Forge965.jar"))->setChangelog((new Changelog())
