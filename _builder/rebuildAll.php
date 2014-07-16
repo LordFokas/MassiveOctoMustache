@@ -58,11 +58,11 @@
 		build("block", "stargate");
 		build("block", "abstract-bus-cable");
 		build("block", "abstract-bus-adapter");
-		build("block", "lantean-wall");return;
+		build("block", "lantean-wall");
 		
 		echo "Building Items";
 		build("item", "naquadah-ingot");
-		build("item", "naquadah-dust");
+		build("item", "naquadah-dust");return;
 		build("item", "naquadah-plate");
 		build("item", "magnetic-induction-coil");
 		build("item", "matter-conductance-coil");
