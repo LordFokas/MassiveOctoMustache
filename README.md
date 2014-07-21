@@ -33,8 +33,8 @@ Stuff that needs to be added to the wiki:
   - [x] Abstract Bus Cable
   - [x] Abstract Bus Adapter
 - [ ] Items
-  - [ ] Naquadah Ingot
-  - [ ] Naquadah Dust
+  - [x] Naquadah Ingot
+  - [x] Naquadah Dust
   - [ ] Naquadah Plate
   - [ ] Magnetic Induction Coil
   - [ ] Matter Conductance Coil
