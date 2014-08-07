@@ -39,7 +39,6 @@
 		flushFolder("mechanics");
         
         echo "Building data";
-		build("item", "under-construction");
 		build("resources", "under-construction");
 		build("mechanics", "under-construction");
         
@@ -62,13 +61,13 @@
 		
 		echo "Building Items";
 		build("item", "naquadah-ingot");
-		build("item", "naquadah-dust");return;
+		build("item", "naquadah-dust");
 		build("item", "naquadah-plate");
 		build("item", "magnetic-induction-coil");
 		build("item", "matter-conductance-coil");
 		build("item", "circuit-crystal");
 		build("item", "personal-shield");
-		build("item", "tablet-pc");
+		build("item", "tablet-pc");return;
 		
 		build("resources", "power");
 		build("resources", "ionized-particles");
