@@ -98,12 +98,12 @@
 			<div class="ui sub menu" id="sub-item">
 				<a class="item" href="../item/naquadah-ingot.html"> Naquadah Ingot </a>
 				<a class="item" href="../item/naquadah-dust.html"> Naquadah Dust </a>
-				<a class="item" href="../item/under-construction.html"> Naquadah Plate </a>
-				<a class="item" href="../item/under-construction.html"> Magnetic Induction Coil </a>
-				<a class="item" href="../item/under-construction.html"> Matter Conductance Coil </a>
-				<a class="item" href="../item/under-construction.html"> Circuit Crystal </a>
-				<a class="item" href="../item/under-construction.html"> Personal Shield </a>
-				<a class="item" href="../item/under-construction.html"> Tablet PC </a>
+				<a class="item" href="../item/naquadah-plate.html"> Naquadah Plate </a>
+				<a class="item" href="../item/magnetic-induction-coil.html"> Magnetic Induction Coil </a>
+				<a class="item" href="../item/matter-conductance-coil.html"> Matter Conductance Coil </a>
+				<a class="item" href="../item/circuit-crystal.html"> Circuit Crystal </a>
+				<a class="item" href="../item/personal-shield.html"> Personal Shield </a>
+				<a class="item" href="../item/tablet-pc.html"> Tablet PC </a>
 			</div>
 			<div class="ui sub menu" id="sub-res">
 				<a class="item" href="../resources/under-construction.html"> Power </a>
