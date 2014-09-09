@@ -169,7 +169,7 @@
 			</span>
 			<span>
 				<i class="green url icon"></i>
-				Kindly hosted by JoshTheEnder
+				Kindly hosted by <a href="http://www.theender.net/">JoshTheEnder</a>
 			</span>
 		</div>
 	</div>
