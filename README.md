@@ -15,6 +15,9 @@ so that the cached HTML is refreshed and you can see the changes.
 without consulting first (like adding a freaking auth system!).
 Such things will probably be denied instantly in the future,
 the website is secure enough, thank you very much.
+If you're curious as to what gets pulled onto the live server: 
+"_resources/", "resources/", "block/", "item/", "mechanics/",
+"miscellaneous/", "index.php" & "fileNotFound.html".
 
 
 
@@ -32,15 +35,15 @@ Stuff that needs to be added to the wiki:
   - [x] Stargate
   - [x] Abstract Bus Cable
   - [x] Abstract Bus Adapter
-- [ ] Items
-  - [ ] Naquadah Ingot
-  - [ ] Naquadah Dust
-  - [ ] Naquadah Plate
-  - [ ] Magnetic Induction Coil
-  - [ ] Matter Conductance Coil
-  - [ ] Circuit Crystal
-  - [ ] Personal Shield
-  - [ ] Tablet PC
+- [x] Items
+  - [x] Naquadah Ingot
+  - [x] Naquadah Dust
+  - [x] Naquadah Plate
+  - [x] Magnetic Induction Coil
+  - [x] Matter Conductance Coil
+  - [x] Circuit Crystal
+  - [x] Personal Shield
+  - [x] Tablet PC
 - [ ] Resources
   - [ ] Power
   - [ ] Ionized Particles
