@@ -36,6 +36,10 @@ p{ line-height: 1.5em; }
 	font-size: 14px;
 }
 
+#footer a{
+	color: #A1CF64; /* same as in SemanticUI Icon */
+}
+
 .dl-link{
 	color: #080;
 	font-weight: bold;
