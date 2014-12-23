@@ -90,6 +90,12 @@
 		########################################################################################################################################################################
 		########################################################################################################################################################################
 		public static function init(){
+			self::$bcVersions[] = (new DependentVersion("0.7.6 Alpha", "10-Dec-14", "1.7.10", "TE 4.0.0.0", "1232",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-6-MC1710-Forge1232.jar"))->setChangelog((new Changelog())
+				-> fix("Crashing on some JVMs when ComputerCraft wasn't present.")
+				-> alt("Overhauled mod integration system.")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.7.5 Alpha", "05-Oct-14", "1.7.10", "TE 4.0.0.0", "1232",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-5-MC1710-Forge1232.jar"))->setChangelog((new Changelog())
 				-> alt("Ported to Minecraft 1.7.10")
