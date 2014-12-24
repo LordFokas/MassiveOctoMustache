@@ -90,6 +90,15 @@
 		########################################################################################################################################################################
 		########################################################################################################################################################################
 		public static function init(){
+			self::$bcVersions[] = (new DependentVersion("0.7.7 Alpha", "24-Dec-14", "1.7.10", "TE 4.0.0.0", "1232",
+			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-7-MC1710-Forge1232.jar"))->setChangelog((new Changelog())
+				-> add("GUI Overlay when you walk over Transport Ring Platforms.")
+				-> alt("Made the Configuration file better.")
+				-> alt("Nerfed Naquadah generation and made it configurable.")
+				-> alt("Slightly lowered Loot Pod generation.")
+				-> alt("Lowered min distance between Transport Rings from 10 to 5 blocks.")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.7.6 Alpha", "10-Dec-14", "1.7.10", "TE 4.0.0.0", "1232",
 			"https://dl.dropboxusercontent.com/u/51166414/stargatetech/releases/StargateTech2-Alpha-0-7-6-MC1710-Forge1232.jar"))->setChangelog((new Changelog())
 				-> fix("Crashing on some JVMs when ComputerCraft wasn't present.")
