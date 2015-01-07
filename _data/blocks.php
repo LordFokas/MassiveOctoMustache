@@ -57,7 +57,8 @@
 				"When a player is within the transporting area (3x3 block space centered on the ring base) pressing either the up or down buttons on the keyboard will ".
 				"make the rings search above or below (depending on what key was pressed) for another ring base. If one was found, the rings activate and the contents of ".
 				"both ring sets are switched to the opisite base. If another ring base was not found then the rings don't activate because there is no-where for them to beam ".
-				"the matter to."
+				"the matter to.<br /><br />Unless disabled in the client-side config, you'll see a transport ring symbol on the left side of your screen whenever you're in ".
+				"range of a Transport Ring Platform"
 			);
 
 			$naquadahRail->setDescription("The Naquadah Rail is a special type of rail that can be placed through shields. It cannot be set as a turning track (come on now, that would be silly) ".

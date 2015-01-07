@@ -16,6 +16,6 @@
 		</div>
 		<?php
 		
-		displayCustomSection("block/{$id}");
+		displayCustomSection("blocks/{$id}");
 	}
 ?>
