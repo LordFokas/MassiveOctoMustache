@@ -1,8 +1,9 @@
 <?php
 	require_once "./_data/blocks.php";
 	
-	function renderBlock($block){
-		$block = BlockRegistry::get($block);
+	function renderBlock($id){
+		$block = BlockRegistry::get($id);
+		
 		?>
 		<div class="ui segment">
 			<div class="column128">
@@ -14,5 +15,7 @@
 			</div>
 		</div>
 		<?php
+		
+		displayCustomSection("block/{$id}");
 	}
 ?>
