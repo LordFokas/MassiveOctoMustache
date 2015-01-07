@@ -65,7 +65,9 @@
 				"It exists as a way to have minecarts able to go through the shields."
 			);
 			
-			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.");
+			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.<br /><br />".
+				"It can be easily identified by it's distinctive glow in the dark."
+			);
 			
 			$stargate->setDescription("The Stargate is our crown jewel. More information (a lot more information, actually) will be added later, right now we're just composing the page stubs...");
 			
