@@ -40,15 +40,13 @@
 				"has enough Ionized Particles in its internal tank. It can also be controlled through the Abstract Bus.");
 			
 			$shieldEmitter->setDescription("The Shield Emitter is used to direct and propel Ionized Particles in order to create a shielded surface.<br /><br />".
-				"As of v0.7.0 they can no longer be placed freely, being only admissible (in)directly connected to a single ShieldController or facing an emitter that is.".
+				"As of v0.7.0 they can no longer be placed freely, being only admissible (in)directly connected to a single ShieldController. ".
 				"They also can no longer be configured or fed with Ionized Particles, which is the role of their associated ShieldController.<br /><br />".
 				"Only the player who placed the Shield Emitter can remove it, by shift+clicking it with a wrench. If a Shield Controller is removed from the world ".
 				"all associated Shield Emitters are removed as well."
 			);
 
-			$particleIonizer->setDescription("The Particle Ionizer is capable of reducing some kinds of matter into tiny ionized particles, charged with a lot of energy. ".
-				"Upon colliding with each others at high speeds they burst, creating a small but powerful magnetic field. Frequencies and particle velocity can be adjusted to ".
-				"let some kinds of entities through it.<br /><br />".
+			$particleIonizer->setDescription("The Particle Ionizer is capable of reducing some kinds of matter into tiny ionized particles, charged with a lot of energy.<br /><br />".
 				"In order to work, the Particle Ionizer requires matter (either liquid, solid, or a mix of both) and energy (Redstone Flux). If the necessary matter has been ".
 				"inserted, it will start working, filling it's internal tank with Ionized Particles, which can be pumped out by any standard fluid system."
 			);
@@ -57,14 +55,17 @@
 				"When a player is within the transporting area (3x3 block space centered on the ring base) pressing either the up or down buttons on the keyboard will ".
 				"make the rings search above or below (depending on what key was pressed) for another ring base. If one was found, the rings activate and the contents of ".
 				"both ring sets are switched to the opisite base. If another ring base was not found then the rings don't activate because there is no-where for them to beam ".
-				"the matter to."
+				"the matter to.<br /><br />Unless disabled in the client-side config, you'll see a transport ring symbol on the left side of your screen whenever you're in ".
+				"range of a Transport Ring Platform"
 			);
 
 			$naquadahRail->setDescription("The Naquadah Rail is a special type of rail that can be placed through shields. It cannot be set as a turning track (come on now, that would be silly) ".
 				"It exists as a way to have minecarts able to go through the shields."
 			);
 			
-			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.");
+			$naquadahOre->setDescription("Naquadah Ore is the mineral form of Naquadah, a super heavy metal used as the base of all Ancient technology.<br /><br />".
+				"It can be easily identified by it's distinctive glow in the dark."
+			);
 			
 			$stargate->setDescription("The Stargate is our crown jewel. More information (a lot more information, actually) will be added later, right now we're just composing the page stubs...");
 			
@@ -76,9 +77,7 @@
 				"It requires ComputerCraft to be installed in order to be craftable and implements the CC Peripheral API."
 			);
 			
-			$lanteanWall->setDescription("The Lantean Wall is a decorative block that can be found in world-generated ruins. It comes in all 16 Standard MC Colors (a.k.a. Wool Colors)<br />".
-				"* Image still Missing *"
-			);
+			$lanteanWall->setDescription("The Lantean Wall is a decorative block that can be found in world-generated ruins. It comes in all 16 Standard MC Colors (a.k.a. Wool Colors)<br />");
 		}
 	}
 

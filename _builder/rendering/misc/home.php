@@ -9,12 +9,7 @@
 		Sometimes it is just not possible to fully comply with Stargate canon and we have to take shortcuts, but we do our best... Some other times we feel the
 		need to add stuff that doesn't exist in Stargate so we just add it anyways in a way that makes it as plausible as we can (an example would be the Particle Ionizer).
 	</p>
-	<p>
-		And why do I keep saying 'we'? I'm the only dev! ._.<br />
-		~ LordFokas<br /><br />
-		Because you ask me about stuff every now and then :)<br />
-		~ JoshTheEnder
-	</p>
+	<?php displayImage("../_resources/img/allTheThings.png"); ?>
 </div>
 
 <div class="ui segment">
@@ -39,6 +34,7 @@
 		</p>
 	</div>
 	
+	<?php /* -- This way the section remains in the source, but not on the cached html.
 	<div class="home-avatar">
 		<img src="https://avatars2.githubusercontent.com/u/2131857?s=100" />
 		<h3> Matchlighter </h3>
@@ -48,4 +44,5 @@
 			that have been requested many times before: add new dimensions to MC that can only be accessed through Stargates.
 		</p>
 	</div>
+	*/ ?>
 </div>
