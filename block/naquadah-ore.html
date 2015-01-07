@@ -79,7 +79,7 @@
 				</a>
 				<a class="item" href="http://webchat.esper.net/?nick=wikiUser...&channels=StargateTech" target="_blank">
 					<i class="chat outline icon"></i>
-					IRC Channel
+					Chat
 				</a>
 			</div>
 			<!-- This needs to be automated in some sense, having them all set to 'under-construction' is not going to help people navigating -->
