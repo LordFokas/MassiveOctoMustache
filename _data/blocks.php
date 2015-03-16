@@ -73,7 +73,7 @@
 				"enabling all machines connected to the same cable to commuticate between themselves."
 			);
 			
-			$busAdapter->setDescription("The Abstract Bus Adapter is an integration block that allows computers from ComputerCraft to operate in Abstract Bus Networks.".
+			$busAdapter->setDescription("The Abstract Bus Adapter is an integration block that allows computers from ComputerCraft to operate in Abstract Bus Networks. ".
 				"It requires ComputerCraft to be installed in order to be craftable and implements the CC Peripheral API."
 			);
 			

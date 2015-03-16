@@ -90,6 +90,11 @@
 		########################################################################################################################################################################
 		########################################################################################################################################################################
 		public static function init(){
+			self::$bcVersions[] = (new DependentVersion("0.7.8 Alpha", "16-Mar-15", "1.7.10", "TE 4.0.0.0", "1232",
+			"http://minecraft.curseforge.com/mc-mods/226769-stargatetech-2/files/2230351"))->setChangelog((new Changelog())
+				-> fix("Fixes crashing when right-clicking blocks (with post-TD CoFH mods).")
+			);
+			
 			self::$bcVersions[] = (new DependentVersion("0.7.7 Alpha", "24-Dec-14", "1.7.10", "TE 4.0.0.0", "1232",
 			"http://minecraft.curseforge.com/mc-mods/226769-stargatetech-2/files/2223787"))->setChangelog((new Changelog())
 				-> add("GUI Overlay when you walk over Transport Ring Platforms.")
