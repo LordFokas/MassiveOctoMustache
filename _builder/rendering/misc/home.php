@@ -26,9 +26,9 @@
 	
 	<div class="home-avatar">
 		<img src="https://avatars3.githubusercontent.com/u/3775521?s=100" />
-		<h3> JoshTheEnder </h3>
+		<h3> Lizzy Trickster </h3>
 		<p>
-			In few words: He's like an arm and two legs to this project. Hosts this site, helps users out, keeps track of stuff,
+			In few words: She's like an arm and two legs to this project. Hosts this site, helps users out, keeps track of stuff,
 			helps develop this site, keeps EnderBot up and running in #StargateTech and much more!<br />
 			Has also started a mod called LaserCraft that should have fun stuff to show <i>sometime</i> in the future.
 		</p>
