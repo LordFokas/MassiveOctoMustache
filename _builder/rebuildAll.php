@@ -37,17 +37,17 @@
 		flushFolder("item");
 		flushFolder("resources");
 		flushFolder("mechanics");
-        
-        echo "Building data";
+		
+		echo "Building data<br>";
 		build("resources", "under-construction");
 		build("mechanics", "under-construction");
-        
-        echo "Building Misc";
+		
+		echo "Building Misc<br>";
 		build("miscellaneous", "home");
 		build("miscellaneous", "downloads");
 		build("miscellaneous", "changelog");
 		
-		echo "Building Blocks";
+		echo "Building Blocks<br>";
 		build("block", "shield-controller");
 		build("block", "shield-emitter");
 		build("block", "particle-ionizer");
@@ -59,7 +59,7 @@
 		build("block", "abstract-bus-adapter");
 		build("block", "lantean-wall");
 		
-		echo "Building Items";
+		echo "Building Items<br>";
 		build("item", "naquadah-ingot");
 		build("item", "naquadah-dust");
 		build("item", "naquadah-plate");
