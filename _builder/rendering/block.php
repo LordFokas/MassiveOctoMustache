@@ -7,7 +7,7 @@
 		?>
 		<div class="ui segment">
 			<div class="column128">
-				<img src="../_resources/img/block/<?php echo $block->getIcon(); ?>" class="icon128" />
+				<img src="/_resources/img/block/<?php echo $block->getIcon(); ?>" class="icon128" />
 			</div>
 			<div class="column730">
 				<h2 style="margin-top: 0px;"><?php echo $block->getName(); ?></h2>

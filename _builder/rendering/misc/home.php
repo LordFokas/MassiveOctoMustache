@@ -9,7 +9,7 @@
 		Sometimes it is just not possible to fully comply with Stargate canon and we have to take shortcuts, but we do our best... Some other times we feel the
 		need to add stuff that doesn't exist in Stargate so we just add it anyways in a way that makes it as plausible as we can (an example would be the Particle Ionizer).
 	</p>
-	<?php displayImage("../_resources/img/allTheThings.png"); ?>
+	<?php displayImage("/_resources/img/allTheThings.png"); ?>
 </div>
 
 <div class="ui segment">
