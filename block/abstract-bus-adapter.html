@@ -12,8 +12,8 @@
 	<link rel="stylesheet" type="text/css" href="/_resources/css/root.css">
 	<link rel="icon" type="image/png" href="/_resources/img/favicon.png">
 
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery.address/1.6/jquery.address.js"></script>
+	<script src="/_resources/js/jquery.js"></script>
+	<script src="/_resources/js/jquery.address.js"></script>
 	<script src="/_resources/semantic/javascript/semantic.js"></script>
 	<script src="/_resources/js/menu.js"></script>
 </head>
