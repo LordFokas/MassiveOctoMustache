@@ -1,6 +1,6 @@
 <div class="ui blue inverted segment">
 	<i class="info letter icon"></i>
-	These are the versions the mod was built with. It will work with most newer and probably with some older versions too.
+    These are the versions the mod was built with. It will work with most newer and probably with some older versions too. Note: BC is Buildcraft, TE is ThermalExpansion
 </div>
 <table class="ui table segment">
 	<thead>
